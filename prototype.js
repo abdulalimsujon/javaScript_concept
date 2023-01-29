@@ -1,22 +1,24 @@
 
-function Person(name, age) {
-    let person = Object.create(Person.prototype)
-    person.name = name,
-        person.age = age
+// function Person(name, age) {
+//     let person = Object.create(Person.prototype)
+//     person.name = name,
+//         person.age = age
 
-    return person
-}
+//     return person
+// }
 
-Person.prototype = {
-    play() {
-        console.log('i am playing')
-    },
-    eat() {
-        console.log('i am eating')
-    }
-}
-const shakib = Person('shakib', 35)
-shakib.play()
+// Person.prototype = {
+//     play() {
+//         console.log('i am playing')
+//     },
+//     eat() {
+//         console.log('i am eating')
+//     }
+// }
+
+
+// const shakib = Person('shakib', 35)
+// shakib.play()
 
 
 
@@ -39,3 +41,8 @@ shakib.play()
 // const rahim = new Person('rahim', 35)
 
 // rahim.play()
+
+
+const array = new Array();
+
+console.log(Array.prototype)
